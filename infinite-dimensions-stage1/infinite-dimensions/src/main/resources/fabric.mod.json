@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "infinitedimensions",
+  "version": "${version}",
+  "name": "Infinite Dimensions",
+  "description": "A recreation of the 20w14∞ April Fools snapshot: billions of seeded dimensions, reached by throwing books into portals.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.infinitedimensions.InfiniteDimensions"],
+    "client": ["dev.infinitedimensions.client.InfiniteDimensionsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
